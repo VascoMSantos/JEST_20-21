@@ -1,0 +1,33 @@
+Visualzation:
+    > Correlation between variables (correlation matrix)
+    > Proportion of the target variable in dataset
+    > Means and standard deviation of the features
+
+Sampling:
+    > In a unbalanced dataset (a bad proportion of target variable) we need to do "under-sampling" (get rid of major class samples) or "over-sampling" (create new minor class samples).
+    > Under-sampling:
+        o we can use the Random Under-Sampling function, that randomly eliminates samples
+    > Over-sampling:
+        o we can use the Random Over-Sampling function, that randomly duplicates samples
+    > A good library to watch is "imbalanced-learn".
+
+Feature Reduction:
+    > Feature Selection:
+        o Elimination of specific features, with a random elimination criteria.
+        o We can resort to statistic tests (Kruskal-Wallis) or to "trial and error" tests.
+    > Dimentionality Reduction:
+        o It must be used ally with Feature Selection.
+        o PCA (Principal Component Analysis) and LDA (Linear Discriminant Analysis)
+
+Classifiers:
+    > Linear Regression Classifiers; KNN; neural networks (Rosenblat's Perceptron and  MinOver Perceptron); Decision Trees and Random Forests
+
+K-Fold Cross Validation
+
+
+Variables:
+predict_data: data to make the prediction (shape (50, 186)) / (50 casos para determinar as labels)
+X: train and test data (cases with indentified labels; shape(128, 186)) / (128 casos que têm as labels indentificadas (para treino e teste))
+df: dataset (samples; dataframe)
+y: dataset (labels)
+
